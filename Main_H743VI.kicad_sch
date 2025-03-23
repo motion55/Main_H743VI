@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1c72d2eb-7fb1-49fe-a026-e817f5a7ec43")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 120.65 50.8)
+		(size 45.72 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16aff487-3924-4be3-b176-d1fab0e3868e")
+		(property "Sheetname" "BASEBOARD"
+			(at 120.65 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "baseboard.kicad_sch"
+			(at 120.65 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 50.8)
+		(size 45.72 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a876cc3c-46f3-4b62-bd95-490c4538aae6")
+		(property "Sheetname" "DEVEBOX"
+			(at 69.85 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "devebox.kicad_sch"
+			(at 69.85 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
