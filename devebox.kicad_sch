@@ -13482,7 +13482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm_HandSoldering"
 			(at 41.91 62.23 0)
 			(effects
 				(font
@@ -13946,7 +13946,7 @@
 				)
 			)
 		)
-		(property "Value" "tact switch"
+		(property "Value" "RESET SW"
 			(at 55.88 30.48 0)
 			(effects
 				(font

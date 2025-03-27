@@ -5672,7 +5672,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT2222A"
+		(symbol "Transistor_BJT:BCP56"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -5689,7 +5689,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT2222A"
+			(property "Value" "BCP56"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -5698,7 +5698,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -5709,7 +5709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5719,7 +5719,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5737,7 +5737,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?223*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5746,7 +5746,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MMBT2222A_0_1"
+			(symbol "BCP56_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -5782,8 +5782,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "MMBT2222A_1_1"
+			(symbol "BCP56_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -5848,7 +5860,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5866,7 +5878,25 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5877,6 +5907,12 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 74.93 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04a2d12a-8162-4e70-b33c-d33b14e7a632")
 	)
 	(junction
 		(at 44.45 135.89)
@@ -5999,6 +6035,12 @@
 		(uuid "7d95444b-dcf5-4172-bfc0-16a69df03148")
 	)
 	(junction
+		(at 125.73 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4e1a9e-4b46-43ec-a50b-e8c2e2bd8d79")
+	)
+	(junction
 		(at 95.25 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6069,6 +6111,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de876e9d-a05b-4fff-8e2d-627b533c14bf")
+	)
+	(junction
+		(at 176.53 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0b67d0d-5921-4768-9179-c01271987388")
 	)
 	(junction
 		(at 179.07 36.83)
@@ -6184,7 +6232,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 64.77) (xy 190.5 60.96)
+			(xy 190.5 66.04) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6234,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 58.42) (xy 182.88 58.42)
+			(xy 191.77 59.69) (xy 182.88 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6301,6 +6349,16 @@
 			(type default)
 		)
 		(uuid "10153491-edee-4ee7-931f-8b0a1c587ae0")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107e1f43-f8a1-491b-a7f4-be6ff22024b2")
 	)
 	(wire
 		(pts
@@ -6524,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 92.71) (xy 134.62 92.71)
+			(xy 123.19 92.71) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6744,7 +6802,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 60.96) (xy 191.77 60.96)
+			(xy 190.5 62.23) (xy 191.77 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7031,6 +7089,16 @@
 			(type default)
 		)
 		(uuid "783e00fb-1710-4ab3-9e78-871b4fdfa872")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a63517-d122-4b10-a9d7-5417c8d61241")
 	)
 	(wire
 		(pts
@@ -7514,7 +7582,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 92.71) (xy 83.82 92.71)
+			(xy 74.93 92.71) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a505632b-c6b3-48a1-8fdb-fb8b60be1271")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 74.93 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7544,7 +7622,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 63.5) (xy 182.88 63.5)
+			(xy 191.77 64.77) (xy 182.88 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8074,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 185.42 92.71)
+			(xy 173.99 92.71) (xy 176.53 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8134,6 +8212,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 92.71) (xy 83.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8f4b24-e248-4197-aea0-24855df5b9f5")
+	)
+	(wire
+		(pts
 			(xy 243.84 44.45) (xy 229.87 44.45)
 		)
 		(stroke
@@ -8181,6 +8269,26 @@
 			(type default)
 		)
 		(uuid "ef197d3c-e253-4eba-982d-6d45ccdd42d3")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0475be0-de58-4bc0-a1cf-55c12040e3ed")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f6ecef-3ce1-488f-9c4e-9e19b8919861")
 	)
 	(wire
 		(pts
@@ -9094,7 +9202,7 @@
 	)
 	(global_label "PA2"
 		(shape passive)
-		(at 182.88 58.42 180)
+		(at 182.88 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9104,7 +9212,7 @@
 		)
 		(uuid "43dbfd13-6c49-45fc-be1f-18eebd5392ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.438 58.42 0)
+			(at 177.438 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10214,7 @@
 	)
 	(global_label "PD6"
 		(shape passive)
-		(at 182.88 63.5 180)
+		(at 182.88 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10116,7 +10224,7 @@
 		)
 		(uuid "f9964acf-47d0-49bf-b867-d399d7e857f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.2566 63.5 0)
+			(at 177.2566 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,6 +10253,85 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 69.85 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01fc55a0-3760-42b7-9e18-39e50ddacfda")
+		(property "Reference" "Q1"
+			(at 76.2 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 76.2 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 74.93 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 69.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 69.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db9c07a-dfa6-450b-b53b-cb84c41ff454")
+		)
+		(pin "2"
+			(uuid "0c2a1e33-f2f5-4361-9159-ba79a1efabfc")
+		)
+		(pin "3"
+			(uuid "697b4338-a1f4-4c64-9610-2af9aa91f255")
+		)
+		(pin "4"
+			(uuid "ea5b39b2-9448-4a97-96ff-e83f6ac78d12")
+		)
+		(instances
+			(project ""
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "Q1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10826,82 +11013,6 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 69.85 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d762d1b-60e7-49e8-a7be-12a9ea4d9fd3")
-		(property "Reference" "Q1"
-			(at 74.93 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 74.93 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 74.93 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 69.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 69.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "46b515ea-af4a-4e2a-b5d5-75ddbd336adb")
-		)
-		(pin "1"
-			(uuid "2c48bb73-aedb-40fa-9098-63539fed669a")
-		)
-		(pin "2"
-			(uuid "243a498a-b817-4ee3-8c07-c94a352487fb")
-		)
-		(instances
-			(project ""
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12129,7 +12240,7 @@
 	)
 	(symbol
 		(lib_id "LM2676S-3.3_NOPB:Conn_01x03")
-		(at 196.85 60.96 0)
+		(at 196.85 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12138,7 +12249,7 @@
 		(fields_autoplaced yes)
 		(uuid "624a908e-f4ac-42ae-8b74-7822698fc38d")
 		(property "Reference" "J9"
-			(at 199.39 59.6899 0)
+			(at 199.39 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,7 +12258,7 @@
 			)
 		)
 		(property "Value" "UART2"
-			(at 199.39 62.2299 0)
+			(at 199.39 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12156,7 +12267,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 196.85 60.96 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 60.96 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12285,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 196.85 60.96 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12272,7 +12383,7 @@
 	)
 	(symbol
 		(lib_id "LM2676S-3.3_NOPB:GND")
-		(at 190.5 64.77 0)
+		(at 190.5 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12280,7 +12391,7 @@
 		(dnp no)
 		(uuid "6261ef08-001b-4acb-af1d-56e17a5e3ee2")
 		(property "Reference" "#PWR038"
-			(at 190.5 71.12 0)
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +12400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.246 68.58 0)
+			(at 190.246 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12297,7 +12408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 64.77 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,7 +12417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 64.77 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,7 +12426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 64.77 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,6 +14333,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 120.65 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7234a82-8d20-4049-a918-fea4df479d9d")
+		(property "Reference" "Q2"
+			(at 127 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 127 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 125.73 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8a03443-f3dd-4117-b358-b45e9a068d38")
+		)
+		(pin "2"
+			(uuid "65cc5b1a-2362-40ff-8ffb-50a9eb0febce")
+		)
+		(pin "3"
+			(uuid "2d3e4dfd-4371-42e9-b741-b8735d250639")
+		)
+		(pin "4"
+			(uuid "035751b3-b664-48ef-9e0a-49d046549846")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM2676S-3.3_NOPB:GND")
 		(at 241.3 68.58 0)
 		(unit 1)
@@ -14281,6 +14471,85 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCP56")
+		(at 171.45 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0822743-ef94-48d0-84d8-76136ca0d99f")
+		(property "Reference" "Q3"
+			(at 177.8 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 177.8 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 176.53 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9407f50e-9894-462a-9c4d-aa46685fa475")
+		)
+		(pin "2"
+			(uuid "8d42d2c9-496c-4595-8d1e-bfdc0cdabdf4")
+		)
+		(pin "3"
+			(uuid "554e9508-4de9-4a35-81f0-72cb5aa683dd")
+		)
+		(pin "4"
+			(uuid "509fcff2-b2fb-4b51-a60d-6ba067c6953c")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -14479,82 +14748,6 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 120.65 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc7ef506-3f68-429c-baaa-362a983a8b8d")
-		(property "Reference" "Q2"
-			(at 125.73 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 125.73 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 125.73 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "083da328-2a82-4496-bd2b-989f668dc390")
-		)
-		(pin "1"
-			(uuid "5dc49202-370f-425a-8791-f91d358000f0")
-		)
-		(pin "2"
-			(uuid "5a240252-1987-413e-b3e7-7a577fcffb40")
-		)
-		(instances
-			(project "Main_H743VI"
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -14990,82 +15183,6 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 171.45 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d33051c0-c283-4fab-91dd-a2766e199bcd")
-		(property "Reference" "Q3"
-			(at 176.53 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 176.53 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 176.53 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3aa0d832-5c61-4c6a-a5a6-7587af32ce2c")
-		)
-		(pin "1"
-			(uuid "778b7181-6c36-48fa-81af-bf31134fa832")
-		)
-		(pin "2"
-			(uuid "ef71ad28-1cf6-4b49-a6e5-cfe3d83ef295")
-		)
-		(instances
-			(project "Main_H743VI"
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
