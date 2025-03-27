@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\OneDrive\\Documents\\KiCad\\9.0\\projects\\Main_H743VI\\Main_H743VI.kicad_sch")
-    (date "2025-03-26T18:32:05+0800")
+    (date "2025-03-27T10:09:23+0800")
     (tool "Eeschema 9.0.0")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block

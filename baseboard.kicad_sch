@@ -10104,7 +10104,7 @@
 			)
 		)
 	)
-	(global_label "PA3"
+	(global_label "PD6"
 		(shape passive)
 		(at 182.88 63.5 180)
 		(fields_autoplaced yes)
@@ -10116,7 +10116,7 @@
 		)
 		(uuid "f9964acf-47d0-49bf-b867-d399d7e857f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.438 63.5 0)
+			(at 177.2566 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12146,7 +12146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "UART2"
 			(at 199.39 62.2299 0)
 			(effects
 				(font
@@ -14644,7 +14644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "UART1"
 			(at 161.29 63.4999 0)
 			(effects
 				(font
