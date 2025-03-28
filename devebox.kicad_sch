@@ -5877,10 +5877,6 @@
 		(uuid "32455ff7-8f52-433f-86c4-cbcc2400cfd5")
 	)
 	(no_connect
-		(at 175.26 92.71)
-		(uuid "385875db-75da-434d-9298-52466bd20e88")
-	)
-	(no_connect
 		(at 240.03 57.15)
 		(uuid "405ac896-1134-4875-add4-c1b935d7614b")
 	)
@@ -6057,6 +6053,16 @@
 			(type default)
 		)
 		(uuid "0d6f8ac7-6e03-42f0-950e-b8ad9369546c")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfd0dd0-4c43-4ddb-88b5-cd69cf0ef0a1")
 	)
 	(wire
 		(pts
@@ -6360,6 +6366,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 85.09) (xy 173.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b6bd19-8d33-4f37-82b6-2f5ff98ad543")
+	)
+	(wire
+		(pts
 			(xy 168.91 38.1) (xy 168.91 39.37)
 		)
 		(stroke
@@ -6467,6 +6483,16 @@
 			(type default)
 		)
 		(uuid "33391dfb-4c93-4ab5-b300-407e6976c6b6")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 173.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b42e89-1400-4c4b-99e0-5a746cee16ea")
 	)
 	(wire
 		(pts
@@ -12487,6 +12513,71 @@
 		)
 	)
 	(symbol
+		(lib_id "LM2676S-3.3_NOPB:+5V")
+		(at 173.99 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "261c5ea4-e37b-45ef-b8f0-bc1eed6f66c4")
+		(property "Reference" "#PWR070"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 173.736 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d75241e9-8528-47a3-b7c2-eedcc4072a6e")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/a876cc3c-46f3-4b62-bd95-490c4538aae6"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM2676S-3.3_NOPB:C")
 		(at 173.99 34.29 0)
 		(unit 1)
@@ -15374,7 +15465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 171.45 134.62 0)
 			(effects
 				(font
@@ -15619,6 +15710,75 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/a876cc3c-46f3-4b62-bd95-490c4538aae6"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM2676S-3.3_NOPB:R_Small")
+		(at 173.99 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cae6afa7-32c9-4e7b-98c4-0dc2ed6d61c6")
+		(property "Reference" "R20"
+			(at 168.656 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 169.926 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "444141aa-7b19-4a76-ba9a-a3a4403a4b62")
+		)
+		(pin "2"
+			(uuid "9b5369f6-9600-40a5-b360-7e5cf53e2cf2")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/a876cc3c-46f3-4b62-bd95-490c4538aae6"
+					(reference "R20")
 					(unit 1)
 				)
 			)
