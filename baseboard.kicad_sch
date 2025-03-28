@@ -5240,89 +5240,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM2676S-3.3_NOPB:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LM2676S-3.3_NOPB:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -5701,16 +5618,108 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BCP56"
+		(symbol "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 2.286 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mounting Hole, 3mm, Via Stiched_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mounting Hole, 3mm, Via Stiched_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Transistor_BJT_AKL:BCP56"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5719,7 +5728,7 @@
 				)
 			)
 			(property "Value" "BCP56"
-				(at 5.08 0 0)
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5727,28 +5736,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 5.08 -1.905 0)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
+			(property "Datasheet" "https://www.tme.eu/Document/9f648c7400c8a9dc245c9deb941956b8/BCP56-10.115.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5757,7 +5754,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Description" "NPN SOT-223 transistor, 80V, 1A, 0.65W, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5766,7 +5763,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*"
+			(property "ki_keywords" "transistor NPN BCP56"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5778,19 +5775,7 @@
 			(symbol "BCP56_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -5800,31 +5785,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BCP56_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -5839,7 +5799,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -5849,9 +5809,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -5861,9 +5832,11 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "BCP56_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.715)
 					(name "B"
 						(effects
 							(font
@@ -5908,24 +5881,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6063,10 +6018,10 @@
 		)
 	)
 	(junction
-		(at 74.93 92.71)
+		(at 123.19 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04a2d12a-8162-4e70-b33c-d33b14e7a632")
+		(uuid "025e8d93-286f-4d96-86eb-89cfa61b927e")
 	)
 	(junction
 		(at 46.99 135.89)
@@ -6091,12 +6046,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b17b345-a651-4545-af60-bf79a01a840d")
-	)
-	(junction
-		(at 173.99 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b9858a8-8805-42c5-aaf2-a58d777081b5")
 	)
 	(junction
 		(at 109.22 38.1)
@@ -6129,6 +6078,12 @@
 		(uuid "26fe49bd-c5bb-4eeb-bbee-67e3be209451")
 	)
 	(junction
+		(at 26.67 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48878615-3787-4cf2-9ded-7f1f5525b4a0")
+	)
+	(junction
 		(at 251.46 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6139,6 +6094,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "567d1b4e-76d3-44b8-b421-713579617c72")
+	)
+	(junction
+		(at 26.67 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c9b95b-e30e-4688-8635-6bf827ae3d8d")
 	)
 	(junction
 		(at 44.45 64.77)
@@ -6195,16 +6156,16 @@
 		(uuid "7a6f043f-4eb1-4a28-ae08-3ee5d146d04e")
 	)
 	(junction
+		(at 173.99 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b06879e-0bc7-4689-a1e5-e0c6dc4998da")
+	)
+	(junction
 		(at 189.23 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d95444b-dcf5-4172-bfc0-16a69df03148")
-	)
-	(junction
-		(at 125.73 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f4e1a9e-4b46-43ec-a50b-e8c2e2bd8d79")
 	)
 	(junction
 		(at 97.79 135.89)
@@ -6237,6 +6198,12 @@
 		(uuid "a54f3ca7-0f51-43d5-a4ae-25e36294bbcd")
 	)
 	(junction
+		(at 26.67 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa765553-3841-4f00-bafc-76eb2a20808e")
+	)
+	(junction
 		(at 52.07 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6247,12 +6214,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b63b3a97-9e9a-4ee6-b46d-c9781f32e286")
-	)
-	(junction
-		(at 123.19 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6f35305-e2f3-46f1-bd38-621371f9c8c1")
 	)
 	(junction
 		(at 220.98 106.68)
@@ -6283,12 +6244,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de876e9d-a05b-4fff-8e2d-627b533c14bf")
-	)
-	(junction
-		(at 176.53 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0b67d0d-5921-4768-9179-c01271987388")
 	)
 	(junction
 		(at 191.77 35.56)
@@ -6534,16 +6489,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 92.71) (xy 134.62 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "107e1f43-f8a1-491b-a7f4-be6ff22024b2")
-	)
-	(wire
-		(pts
 			(xy 168.91 149.86) (xy 168.91 161.29)
 		)
 		(stroke
@@ -6674,6 +6619,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 176.53) (xy 26.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2037456f-f749-4eeb-b746-2e8bb8aaceab")
+	)
+	(wire
+		(pts
 			(xy 123.19 85.09) (xy 133.35 85.09)
 		)
 		(stroke
@@ -6754,6 +6709,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 92.71) (xy 123.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28faec6b-bcbb-4343-87b4-5ec97b58a3f0")
+	)
+	(wire
+		(pts
 			(xy 67.31 36.83) (xy 58.42 36.83)
 		)
 		(stroke
@@ -6804,23 +6769,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 173.99 93.98)
+			(xy 173.99 91.44) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2fda9359-31cb-44e5-a3bb-a9622e540e8a")
-	)
-	(wire
-		(pts
-			(xy 123.19 92.71) (xy 125.73 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3036354d-547e-4b55-9ba5-0e8dfa4be186")
 	)
 	(wire
 		(pts
@@ -6851,6 +6806,16 @@
 			(type default)
 		)
 		(uuid "3433879d-e0be-4acf-bc29-386b3cab0f86")
+	)
+	(wire
+		(pts
+			(xy 25.4 176.53) (xy 26.67 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cd54c4-5e75-4398-a1c7-220737c57279")
 	)
 	(wire
 		(pts
@@ -7004,6 +6969,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468c2e78-29b0-470b-8590-efeb776156e1")
+	)
+	(wire
+		(pts
 			(xy 46.99 135.89) (xy 46.99 144.78)
 		)
 		(stroke
@@ -7061,6 +7036,16 @@
 			(type default)
 		)
 		(uuid "4f7c4ce1-afd7-4fd6-99ff-4faa53656c08")
+	)
+	(wire
+		(pts
+			(xy 25.4 180.34) (xy 26.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e48037-f349-4f17-9bff-12fb98b1a359")
 	)
 	(wire
 		(pts
@@ -7184,6 +7169,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 184.15) (xy 26.67 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecd8098-ad8f-4d77-bd69-274028fc96e6")
+	)
+	(wire
+		(pts
 			(xy 110.49 62.23) (xy 110.49 66.04)
 		)
 		(stroke
@@ -7211,6 +7206,16 @@
 			(type default)
 		)
 		(uuid "6044363c-7951-4080-b976-afad81d2946b")
+	)
+	(wire
+		(pts
+			(xy 26.67 180.34) (xy 26.67 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64db38c8-a818-4de3-bbe2-75409e32f904")
 	)
 	(wire
 		(pts
@@ -7321,16 +7326,6 @@
 			(type default)
 		)
 		(uuid "783e00fb-1710-4ab3-9e78-871b4fdfa872")
-	)
-	(wire
-		(pts
-			(xy 176.53 92.71) (xy 176.53 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78a63517-d122-4b10-a9d7-5417c8d61241")
 	)
 	(wire
 		(pts
@@ -7464,6 +7459,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 92.71) (xy 173.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b93975-0de6-4b40-98ef-fc2a9fe2583a")
+	)
+	(wire
+		(pts
 			(xy 185.42 87.63) (xy 184.15 87.63)
 		)
 		(stroke
@@ -7491,6 +7496,16 @@
 			(type default)
 		)
 		(uuid "85b262e4-d0e9-4ec1-999b-8afd598de748")
+	)
+	(wire
+		(pts
+			(xy 26.67 172.72) (xy 26.67 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e3c6e4-c4b8-41dc-b1c3-67e8a8b8ccf3")
 	)
 	(wire
 		(pts
@@ -7784,6 +7799,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 172.72) (xy 26.67 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1879cd-e1a1-4d72-a6e6-33c128b2533e")
+	)
+	(wire
+		(pts
 			(xy 149.86 40.64) (xy 137.16 40.64)
 		)
 		(stroke
@@ -7844,16 +7869,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 92.71) (xy 74.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a505632b-c6b3-48a1-8fdb-fb8b60be1271")
-	)
-	(wire
-		(pts
 			(xy 173.99 73.66) (xy 173.99 74.93)
 		)
 		(stroke
@@ -7864,7 +7879,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 92.71) (xy 74.93 92.71)
+			(xy 72.39 92.71) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7881,6 +7896,16 @@
 			(type default)
 		)
 		(uuid "a8021704-e8d8-476f-84dc-ec66d55cf480")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e0a2ea-e32f-458b-965b-fe8029de4b7c")
 	)
 	(wire
 		(pts
@@ -8344,16 +8369,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 91.44) (xy 173.99 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9798927-4147-4d09-9f8b-c2e1e1709236")
-	)
-	(wire
-		(pts
 			(xy 154.94 99.06) (xy 160.02 99.06)
 		)
 		(stroke
@@ -8394,13 +8409,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 92.71) (xy 123.19 93.98)
+			(xy 123.19 91.44) (xy 123.19 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc953a7c-61b0-4b63-9c26-91ba9a3227b5")
+	)
+	(wire
+		(pts
+			(xy 25.4 184.15) (xy 26.67 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deefd779-87c3-4d33-b1e2-3147a0f55d45")
 	)
 	(wire
 		(pts
@@ -8444,16 +8469,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 176.53 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ab7fc9-90cf-4e55-8736-17c1152a06b5")
-	)
-	(wire
-		(pts
 			(xy 251.46 109.22) (xy 242.57 109.22)
 		)
 		(stroke
@@ -8491,26 +8506,6 @@
 			(type default)
 		)
 		(uuid "e5c38ebb-e144-4b31-a063-c64262e98ca9")
-	)
-	(wire
-		(pts
-			(xy 123.19 91.44) (xy 123.19 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb7547c4-89ae-4e96-b61d-f10c7845dd64")
-	)
-	(wire
-		(pts
-			(xy 74.93 92.71) (xy 83.82 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8f4b24-e248-4197-aea0-24855df5b9f5")
 	)
 	(wire
 		(pts
@@ -8571,26 +8566,6 @@
 			(type default)
 		)
 		(uuid "ef5a3cf1-f2e1-4a61-9a17-eac889b90ee4")
-	)
-	(wire
-		(pts
-			(xy 125.73 92.71) (xy 125.73 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0475be0-de58-4bc0-a1cf-55c12040e3ed")
-	)
-	(wire
-		(pts
-			(xy 176.53 92.71) (xy 185.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f6ecef-3ce1-488f-9c4e-9e19b8919861")
 	)
 	(wire
 		(pts
@@ -10655,70 +10630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LM2676S-3.3_NOPB:MountingHole")
-		(at 19.05 191.77 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0816500a-4965-49a4-9709-554c781ec59e")
-		(property "Reference" "H4"
-			(at 21.59 190.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 21.59 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 19.05 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 19.05 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Main_H743VI"
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LM2676S-3.3_NOPB:GND")
 		(at 148.59 44.45 0)
 		(unit 1)
@@ -10778,6 +10689,144 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_BJT_AKL:BCP56")
+		(at 120.65 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a733218-4ed6-45f8-a764-636541a5cf60")
+		(property "Reference" "Q2"
+			(at 125.73 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 125.73 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/9f648c7400c8a9dc245c9deb941956b8/BCP56-10.115.pdf"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-223 transistor, 80V, 1A, 0.65W, Alternate KiCAD Library"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cc8cc073-7791-4f4a-a267-8f568e1ea50b")
+		)
+		(pin "1"
+			(uuid "0bbc23b8-477a-41c6-87a3-91607cac5e99")
+		)
+		(pin "2"
+			(uuid "5372e999-8a08-460b-ad2e-108ea42faed0")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 22.86 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bf0287b-ee4d-4cff-898c-f3b614a72cf1")
+		(property "Reference" "H2"
+			(at 20.066 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 22.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac873767-ad14-4016-8086-6ee779b93d5b")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11192,70 +11241,6 @@
 			(project ""
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM2676S-3.3_NOPB:MountingHole")
-		(at 19.05 181.61 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c909a36-03fc-43a3-93c2-0af9899643bb")
-		(property "Reference" "H2"
-			(at 21.59 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 21.59 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 19.05 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 19.05 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Main_H743VI"
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12345,6 +12330,71 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 22.86 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ca43dd4-492b-4313-8c72-a965b61ac296")
+		(property "Reference" "H3"
+			(at 20.066 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 22.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 22.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd89a9b8-7e65-4291-ac54-ebb4a6467783")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM2676S-3.3_NOPB:+3.3V")
 		(at 137.16 40.64 90)
 		(unit 1)
@@ -12620,55 +12670,51 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BCP56")
-		(at 69.85 99.06 0)
+		(lib_id "LM2676S-3.3_NOPB:GND")
+		(at 26.67 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "422c9819-262e-480d-869f-581759232010")
-		(property "Reference" "Q1"
-			(at 75.438 100.33 0)
+		(uuid "42354438-9e17-4249-83a5-88b0f8a4f303")
+		(property "Reference" "#PWR072"
+			(at 26.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "BCP56"
-			(at 74.422 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 74.93 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
-			(at 69.85 99.06 0)
+		(property "Value" "GND"
+			(at 26.416 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
-			(at 69.85 99.06 0)
+		(property "Datasheet" ""
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,21 +12723,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff341c8e-084a-457a-ba21-1ca1c6681f3a")
-		)
-		(pin "2"
-			(uuid "d43c1ae2-5a5a-4bf4-96d9-e9513e872625")
-		)
-		(pin "3"
-			(uuid "25837680-2ab0-4dc8-9d42-ec6a8d2fe611")
-		)
-		(pin "4"
-			(uuid "27f84d58-8d55-4a74-aa4b-fc14154c4eb4")
+			(uuid "488619ff-1f10-49b3-bd0d-e65326683914")
 		)
 		(instances
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "Q1")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -13319,6 +13356,79 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_BJT_AKL:BCP56")
+		(at 69.85 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ddb00f-0162-4fbe-8759-57c95ab240b8")
+		(property "Reference" "Q1"
+			(at 74.93 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 74.93 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/9f648c7400c8a9dc245c9deb941956b8/BCP56-10.115.pdf"
+			(at 69.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-223 transistor, 80V, 1A, 0.65W, Alternate KiCAD Library"
+			(at 69.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "64278275-a9a5-4e6e-87e5-794da8627584")
+		)
+		(pin "1"
+			(uuid "000fe55a-f896-4340-97b1-1e893f197a13")
+		)
+		(pin "2"
+			(uuid "763f253e-ae24-4034-9cc9-f86cc72b89a6")
+		)
+		(instances
+			(project ""
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM2676S-3.3_NOPB:+3.3V")
 		(at 133.35 133.35 0)
 		(unit 1)
@@ -13378,84 +13488,6 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BCP56")
-		(at 171.45 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d111464-83ef-419a-95ee-fb9de879ce55")
-		(property "Reference" "Q3"
-			(at 177.038 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BCP56"
-			(at 176.022 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 176.53 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "242bd603-f0b9-40ad-a898-0f91d6366610")
-		)
-		(pin "2"
-			(uuid "fc49b138-417e-4a48-982d-f79c70fa1a6b")
-		)
-		(pin "3"
-			(uuid "5a0f33fb-1655-48c8-b814-ab24495856de")
-		)
-		(pin "4"
-			(uuid "f438f84b-9ae1-4615-92d9-485c3ddb475e")
-		)
-		(instances
-			(project "Main_H743VI"
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -14220,84 +14252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BCP56")
-		(at 120.65 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8891bcaf-30bf-445d-ae31-e007178377c2")
-		(property "Reference" "Q2"
-			(at 126.238 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BCP56"
-			(at 125.222 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 125.73 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0a5cc7b-50b8-412b-ac0c-da0920c2f6be")
-		)
-		(pin "2"
-			(uuid "3c9940b3-bebc-4393-b7b0-0bd9459efea0")
-		)
-		(pin "3"
-			(uuid "7af4193b-1b46-4c3b-b8da-5c8c67071469")
-		)
-		(pin "4"
-			(uuid "5f871382-2663-406d-92ce-9e716c2edd9e")
-		)
-		(instances
-			(project "Main_H743VI"
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LM2676S-3.3_NOPB:GND")
 		(at 82.55 93.98 0)
 		(unit 1)
@@ -14357,6 +14311,71 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 22.86 184.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ac81115-964f-433c-8424-66f91500cc21")
+		(property "Reference" "H4"
+			(at 20.066 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 22.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 22.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c34c9bd-d66e-457c-9394-a7e4e95230e4")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -15352,6 +15371,79 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_BJT_AKL:BCP56")
+		(at 171.45 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a65fedae-9674-4035-ab06-9688d6f4d925")
+		(property "Reference" "Q3"
+			(at 176.53 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56"
+			(at 176.53 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/9f648c7400c8a9dc245c9deb941956b8/BCP56-10.115.pdf"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-223 transistor, 80V, 1A, 0.65W, Alternate KiCAD Library"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4f898d70-51dc-4714-ac36-db1fea9f365b")
+		)
+		(pin "1"
+			(uuid "d478fa9e-0863-4cbf-8d25-baed8e6f8a90")
+		)
+		(pin "2"
+			(uuid "2e745bba-ad77-41ea-9966-eae59cd824fd")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM2676S-3.3_NOPB:GND")
 		(at 241.3 68.58 0)
 		(unit 1)
@@ -15476,70 +15568,6 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM2676S-3.3_NOPB:MountingHole")
-		(at 19.05 186.69 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6df2174-afe7-4eee-a68f-35ee3e4cd9fc")
-		(property "Reference" "H3"
-			(at 21.59 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 21.59 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 19.05 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 19.05 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Main_H743VI"
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -16515,6 +16543,71 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 22.86 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e98c048a-5cd5-4414-a09f-d0a06a6644ae")
+		(property "Reference" "H1"
+			(at 20.066 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 22.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 22.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e2067b-1f35-4aa1-a8a0-2724571877be")
+		)
+		(instances
+			(project ""
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM2676S-3.3_NOPB:+3.3V")
 		(at 262.89 106.68 270)
 		(unit 1)
@@ -16576,70 +16669,6 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM2676S-3.3_NOPB:MountingHole")
-		(at 19.05 176.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1a0d533-fc55-4f19-95c0-7882d4fe06fd")
-		(property "Reference" "H1"
-			(at 21.59 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 21.59 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 19.05 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 19.05 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/16aff487-3924-4be3-b176-d1fab0e3868e"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -16943,7 +16972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm"
+		(property "Footprint" "JLCPCB:L_SMD,8x8mm"
 			(at 102.87 135.89 0)
 			(effects
 				(font

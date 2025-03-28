@@ -7046,6 +7046,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 43.18) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a773ee9-33e2-4022-ac60-06ae656b643e")
+	)
+	(wire
+		(pts
 			(xy 62.23 43.18) (xy 74.93 43.18)
 		)
 		(stroke
@@ -8226,6 +8236,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 43.18) (xy 55.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e224193e-c473-4995-b7e8-583242ba3504")
+	)
+	(wire
+		(pts
 			(xy 60.96 139.7) (xy 74.93 139.7)
 		)
 		(stroke
@@ -8595,7 +8615,7 @@
 		(uuid "b60c9595-25a7-4d6a-91b6-b5f096764d2f")
 	)
 	(label "BOOT0"
-		(at 62.23 43.18 0)
+		(at 64.77 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12656,7 +12676,7 @@
 		(dnp no)
 		(uuid "2f47ed0f-30f4-4f62-97d8-e8b9c37bd2cc")
 		(property "Reference" "C1"
-			(at 57.912 36.322 90)
+			(at 58.166 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,7 +12685,7 @@
 			)
 		)
 		(property "Value" "104"
-			(at 57.912 39.624 90)
+			(at 57.912 39.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13555,10 +13575,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "537e6db1-c628-4ca6-a557-2ea440666c9b")
 		(property "Reference" "Y1"
-			(at 50.8 46.9198 0)
+			(at 43.434 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,7 +13585,7 @@
 			)
 		)
 		(property "Value" "25MHZ"
-			(at 50.8 49.4598 0)
+			(at 44.196 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,6 +13702,71 @@
 			(project "Main_H743VI"
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/a876cc3c-46f3-4b62-bd95-490c4538aae6"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM2676S-3.3_NOPB:GND")
+		(at 55.88 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59f05ae3-6439-43a5-be7e-62eeeb195316")
+		(property "Reference" "#PWR071"
+			(at 55.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5222ccca-8103-4c60-84e1-7b375f2d4f89")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/a876cc3c-46f3-4b62-bd95-490c4538aae6"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -14760,6 +14844,73 @@
 			(project ""
 				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/a876cc3c-46f3-4b62-bd95-490c4538aae6"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM2676S-3.3_NOPB:R_Small")
+		(at 59.69 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9303bab2-c2e9-45e8-83a6-a9d5a37d5e5e")
+		(property "Reference" "R19"
+			(at 59.436 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 59.69 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a80b2e48-edfe-40da-ab33-024270aedaa9")
+		)
+		(pin "1"
+			(uuid "0e27e973-5a3a-4647-bcbf-64a0a5d24513")
+		)
+		(instances
+			(project "Main_H743VI"
+				(path "/1c72d2eb-7fb1-49fe-a026-e817f5a7ec43/a876cc3c-46f3-4b62-bd95-490c4538aae6"
+					(reference "R19")
 					(unit 1)
 				)
 			)
