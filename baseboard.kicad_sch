@@ -9137,7 +9137,7 @@
 		)
 		(uuid "db905f91-e4bc-45d1-a50d-ca6c2c64de20")
 	)
-	(label "SPI_MOSI"
+	(label "SPI1_MOSI"
 		(at 232.41 36.83 0)
 		(effects
 			(font
@@ -9607,7 +9607,7 @@
 			)
 		)
 	)
-	(global_label "PA5"
+	(global_label "PB3"
 		(shape passive)
 		(at 229.87 41.91 180)
 		(fields_autoplaced yes)
